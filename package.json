@@ -55,10 +55,14 @@
     "@dcloudio/uni-quickapp-native": "^2.0.0-alpha-30820210114001",
     "@dcloudio/uni-quickapp-webview": "^2.0.0-alpha-30820210114001",
     "@dcloudio/uni-stat": "^2.0.0-alpha-30820210114001",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@vue/shared": "^3.0.0",
+    "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
+    "postcss": "^7.0.35",
     "regenerator-runtime": "^0.12.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^2.6.11",
     "vue-class-component": "^6.3.2",
     "vue-property-decorator": "^8.0.0",
@@ -85,8 +89,12 @@
     "mini-types": "*",
     "miniprogram-api-typings": "*",
     "postcss-comment": "^2.0.0",
+    "postcss-focus": "^5.0.1",
     "typescript": "^3.0.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.4"
   },
   "browserslist": [
     "Android >= 4",

@@ -1,9 +1,9 @@
 <template>
-  <view class="content">
-    <view>
-      <text class="title">{{ title }}</text>
-    </view>
-  </view>
+  <div class="text-center">
+    <div class="mt-2 bg-red-200">
+      {{ title }}
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
