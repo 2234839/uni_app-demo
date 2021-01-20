@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <div class="mt-2 bg-red-200">
+    <div class="mt-2 bg-red-200 hover_bg-purple-700">
       {{ title }}
     </div>
   </div>
